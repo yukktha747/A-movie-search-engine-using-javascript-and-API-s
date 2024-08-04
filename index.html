@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+     <div class="flex">
+        <input type="text" class="text1" id="name" placeholder="Enter the details of movies...">
+        <button class="btn" onclick="moviename()">Search</button>
+     </div>
+     <div class="container">
+        <div class="content">
+          <h1 id="title">Title:</h1>
+          <p style="color:white;">Director: <span id="director"></span></p>
+          <p>Actors: <span id="actors"></span></p>
+          <p>Box Office Collection: <span id="box office"></span></p>
+          <p>Description: <span id="description"></span></p>
+          <p>Awards: <span id="awards"></span></p>
+          <p>Writer: <span id="writer"></span></p>
+        </div>
+        <img src="photo.jpg" class="img" id="poster" height="500px">
+     </div>
+    <script src="app.js"></script>
+</body>
+</html> 
